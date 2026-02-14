@@ -35,7 +35,7 @@ This project is a Proof of Concept (PoC) for an end-to-end traceability system f
 2.  **Install Dependencies:**
     This is the most critical step. Run the following command to download and install all required libraries (creates the `node_modules` folder):
     ```bash
-    npm install
+    npm install react@18.3.1 react-dom@18.3.1
     ```
 
 3.  **Environment Setup:**
