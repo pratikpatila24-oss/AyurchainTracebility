@@ -1,0 +1,43 @@
+{
+  "name": "ayurvedic-traceability-poc",
+  "version": "1.0.0",
+  "private": true,
+  "proxy": "http://localhost:4000",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "axios": "^1.13.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "qrcode": "^1.5.3",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "react-qr-code": "^2.0.18",
+    "react-scripts": "^5.0.1",
+    "shortid": "^2.2.16"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "react-scripts start",
+    "server": "nodemon server.js",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "vite": "^7.1.10"
+  }
+}
